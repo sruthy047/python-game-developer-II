@@ -22,6 +22,7 @@ while(True):
     time.sleep(2)
 
     image2=pygame.image.load(r"E:\Sruthi\Python Game Developer II\Lesson 4\off.jpg")
+    image2=pygame.transform.scale(image2,(WIDTH,HEIGHT))
     font2=pygame.font.SysFont("Arial",36)
     text3=font2.render("OFF",True,(0,0,0))
     display_surface.fill((255,255,255))
